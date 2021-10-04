@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Forms</title>
+</head>
+
+<body class="image">
+    
+    <h1 style="text-align:center;">Parala Maharaja Engineering College</h1>
+    <h2 style="text-align:center;">B.Tech Final Semester Registration</h2>
+    <marquee>Last Date : 30/09/2021</marquee>
+    <hr>
+    <form action="backend.php">
+        <h3>Student Information</h3>
+        <div>
+            Name: <input type="text" name="myName">
+        </div>
+        <br>
+        <div>
+            Registration No. : <input type="number" name="myRegistrationNumber">
+        </div>
+        <br>
+        <div>
+            <label for="branch">Branch</label>
+            <select name="myBranch" id="branch">
+                <option value="space"></option>
+                <option value="me">Mechanical Engineering</option>
+                <option value="cse">Computer Science Engineering</option>
+                <option value="ee">Electrical Engineering</option>
+                <option value="etc">Electronics and Telecommunication Engineering</option>
+                <option value="ce">Civil Engineering</option>
+                <option value="che">Chemical Engineering</option>
+                <option value="ae">Automobile Engineering</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            Section: A <input type="radio" name="mySection"> B <input type="radio" name="mySection">
+        </div>
+        <br>
+        <hr>
+        <h3>Personal Information</h3>
+        <div>
+            Phone No. : <input type="number" name="myPhoneNumber">
+            Alternate Phone No. : <input type="number" name="myAlternatePhoneNumber">
+        </div>
+        <br>
+        <div>
+            Email: <input type="email" name="myEmail">
+        </div>
+        <br>
+        <div>
+            Date of birth: <input type="date" name="myDate">
+        </div>
+        <br>
+        <div>
+            Gender: Male <input type="radio" name="myGender"> Female <input type="radio" name="myGender">
+            Other <input type="radio" name="myGender">
+        </div>
+        <br>
+        <div>
+            Father's Name: <input type="text" name="myFatherName">
+        </div>
+        <br>
+        <div>
+            Mother's Name: <input type="text" name="myMotherName">
+        </div>
+        <br>
+        <div>
+            Address: <br><textarea name="myText" cols="50" rows="2"></textarea>
+        </div>
+        <br>
+        <div>
+            City: <input type="text" name="myCity">
+        </div>
+        <br>
+        <div>
+            State: <input type="text" name="myState">
+        </div>
+        <br>
+        <div>
+            Postal/Zip code : <input type="number" name="myPostalCode">
+        </div>
+        <br>
+        <hr>
+    
+        <h3>Payment Details</h3>
+        Payment mode: Online <input type="radio" name="mySection"> Offline <input type="radio" name="mySection"><br>
+        <p>Payment Slip:</p>
+        
+        <form action="/action_page.php">
+        <input type="file" id="myFile" name="filename">
+        <input type="submit">
+    </form>
+        <br>
+        <div>
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset Now">
+        </div>
+    </form>
+</body>
+</html>
